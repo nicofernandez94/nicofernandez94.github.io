@@ -1,0 +1,38 @@
+body {
+	background-image: url("header.jpg");
+	background-size: cover;
+}
+
+h1{
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Saira Stencil One', cursive;
+	position: absolute;
+ 	top: 48%;
+ 	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+button { position: absolute;
+ 	top: 85%;
+ 	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn {background-color: #FF4F00;
+	color: white;
+	text-transform: uppercase;
+	width: 250px;
+	border-radius: 25px;
+	position: absolute;
+ 	top: 85%;
+ 	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.btn:hover {background-color: black;
+	color: white;
+	padding: 10px;
+  	cursor: pointer;
+}
